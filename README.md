@@ -1,3 +1,5 @@
 # alias-terminal-linux-en-windows
 
-Copiar en %systemroot%/system32 $env:systemroot
+Copiar en System32
+CMD: xcopy *.bat %systemroot%/system32 
+Powersheel xcopy *.bat $env:systemroot/system32
